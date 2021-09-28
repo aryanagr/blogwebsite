@@ -13,8 +13,8 @@ const Footer =()=>{
     return(
         <>
 
-
-<div className="container my-0 bg-light">
+<div style={{background: "linear-gradient( to right,#bdc3c7 , #2c3e50" ,width:"100%"}}>
+<div className="container my-0  px-0 bg-light" >
 
   <footer className="bg-dark text-center text-white">
  
@@ -22,25 +22,25 @@ const Footer =()=>{
     
     <section className="mb-4">
 
-      <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryanagrawal987" target=""  role="button"
+      <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryanagrawal987" target="_blank"  role="button"
         ><FacebookIcon /></a>
 
      
-      <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/aryanagr" target="" role="button"
+      <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/aryanagr" target="_blank" role="button"
         ><TwitterIcon /></a>
 
      
     
 
      
-      <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/aryanagrawal987/" target="" role="button"
+      <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/aryanagrawal987/" target="_blank" role="button"
         ><InstagramIcon /></a>
 
-      <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryanagr/" target="" role="button"
+      <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryanagr/" target="_blank" role="button"
         ><LinkedInIcon /></a>
 
     
-      <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/aryanagr" target="" role="button"
+      <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/aryanagr" target="_blank" role="button"
         ><GitHubIcon /></a>
     </section>
     
@@ -55,6 +55,7 @@ const Footer =()=>{
 
 </footer>
   
+</div>
 </div>
 
         </>

@@ -36,7 +36,8 @@ const Signup = () =>{
     }
 
     return(<>
-    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-0 mx-auto bg-light">
+
+    <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-0 mx-auto bg-light"  style={{ background: "linear-gradient( to right,#bdc3c7 , #2c3e50"}}>
     <div className="card card0 border-0">
         <div className="row d-flex">
             <div className="col-lg-6">
@@ -81,6 +82,7 @@ const Signup = () =>{
  
     </div>
 </div>
+
     </>);
 }
 export default Signup;
