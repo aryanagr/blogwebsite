@@ -14,9 +14,9 @@ const Footer =()=>{
         <>
 
 <div style={{background: "linear-gradient( to right,#bdc3c7 , #2c3e50" ,width:"100%"}}>
-<div className="container my-0  px-0 bg-light" >
+<div className="container my-0  px-0 bg-light"  style={{background: "linear-gradient( to right,#bdc3c7 , #2c3e50" ,width:"100%"}} >
 
-  <footer className="bg-dark text-center text-white">
+  <footer className="bg-dark text-center text-white"  style={{background: "linear-gradient( to right,#bdc3c7 , #2c3e50" ,width:"100%"}}>
  
   <div className="container p-4 pb-0">
     
